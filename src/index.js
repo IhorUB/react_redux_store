@@ -1,6 +1,7 @@
 import './main.css'
+
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 import {createStore, applyMiddleware} from 'redux'
 import {createBrowserHistory} from 'history'
 import thunk from 'redux-thunk'
@@ -18,7 +19,7 @@ const store = createStore(
   composeWithDevTools(applyMiddleware(...middlewares))
 )
 
-ReactDom.render(
+ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
       {routes}
