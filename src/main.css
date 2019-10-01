@@ -537,4 +537,7 @@ footer {
     -ms-transform: translateY(0px);
     transform: translateY(0px);
 }
+.list-group{
+    list-style: none;
+}
 
