@@ -238,7 +238,7 @@
 .item-checout .first-column-checkout{
     width: 12%;
 }
-.item-checout td{
+.item-checkout td{
     border-bottom: 1px solid #ddd;
     border-top: none !important;
     text-align: center;
