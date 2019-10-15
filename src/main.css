@@ -238,7 +238,7 @@
 .item-checout .first-column-checkout{
     width: 12%;
 }
-.item-checkout td{
+.item-checout td{
     border-bottom: 1px solid #ddd;
     border-top: none !important;
     text-align: center;
@@ -536,8 +536,5 @@ footer {
     -o-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px);
-}
-.list-group{
-    list-style: none;
 }
 
